@@ -1,6 +1,2 @@
-import yaml
 
-with open("message.yaml", "r") as file:
-    data = yaml.safe_load(file)
-
-print(data["message"])  # Output: Hello, world!
+message: "Hello, world!"
